@@ -1,0 +1,5 @@
+export const SUBMISSION_TYPES = {
+  INDIVIDUAL: 'INDIVIDUAL',
+  GROUP: 'GROUP',
+}
+

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <defs>
+    <linearGradient id="joineazyGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4f46e5"/>
+      <stop offset="100%" stop-color="#7c3aed"/>
+    </linearGradient>
+    <linearGradient id="tasselGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fbbf24"/>
+      <stop offset="100%" stop-color="#f59e0b"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2" flood-color="#000" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+  <rect width="64" height="64" rx="16" fill="url(#joineazyGrad)"/>
+  <g filter="url(#shadow)">
+    <path d="M32 15L13 24.5L32 34L51 24.5L32 15Z" fill="#ffffff"/>
+    <path d="M20 28.5V37.5C20 41.5 25.37 45 32 45C38.63 45 44 41.5 44 37.5V28.5L32 35L20 28.5Z" fill="#e0e7ff"/>
+    <path d="M47 27V41C47 42.5 45.5 43.5 44 42.5" stroke="url(#tasselGrad)" stroke-width="2.5" stroke-linecap="round"/>
+    <circle cx="44" cy="43" r="2.2" fill="#fbbf24"/>
+  </g>
+</svg>
